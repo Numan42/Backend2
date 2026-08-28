@@ -1,1 +1,1 @@
-export const DB_NAME = Random;
+export const DB_NAME = "Random";

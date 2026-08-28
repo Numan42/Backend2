@@ -1,2 +1,7 @@
-import express from 'express'
-import User from '../models/User.js'
+import { Router } from "express";
+import { UserRegister } from "../controllers/user.controller.js";
+const router = Router();
+
+router.route("/register").post(UserRegister);
+
+export default router;
