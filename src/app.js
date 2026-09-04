@@ -14,3 +14,5 @@ app.use(express.urlencoded({ extended: true }))
 app.use('/api/v1/user', router)
 
 export default app
+
+// http://localhost:8000/api/v1/user/register
