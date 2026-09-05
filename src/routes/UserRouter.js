@@ -12,3 +12,7 @@ router.route("/register").post(  // allows to send multipart/form-data request w
     UserRegister);
 
 export default router;
+
+
+
+
